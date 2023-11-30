@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Joppich</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="coolblue.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap">
+</head>
+<body>
+    <a class="logo-item"><img src="logo.png" alt="Logo" class="logo"></a>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-bar-item"><a href="aboutme.html" class="nav-link">About Me</a></li>
+                <li class="nav-bar-item"><a href="#target-section" class="nav-link">Projects</a></li>
+                <li class="nav-bar-item"><a href="TJoppichResume.pdf" class="nav-link" target="_blank">Resume</a></li>
+                <li class="nav-bar-item"><a href="https://github.com/tommyjoppich" target="_blank"><img src="github.png" alt="GitHub" class="nav-icon"></a></li>
+                <li class="nav-bar-item"><a href="https://www.linkedin.com/in/thomasjoppich/" target="_blank" ><img src="linkedin.png" alt="LinkedIn" class="nav-icon"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="headers-id">
+        <h1 class="headers-class" id="name">Tommy Joppich</h1>
+        <h3 class="headers-class" id="slogan">Designing for the love of creativity.</h3>
+        <h5 class="headers-class" id="description">UX Design - Front End Development - A Singular Card Trick</h5>
+    </div>
+    <div class="scroll">
+        <p id="check-it-out">check out some work</p>
+    </div>
+    <img id="down-arrow" src="down-arrow.jpg" alt="Down Arrow">
+    <div class="project-grid" id="target-section">
+        <div class="project-box" onclick="window.location.href='ktplife.html';">
+            <div class="project-image">
+                <img src="ktp-app.png" alt="KTP Life App Photos" class="image">
+            </div>
+            <div class="project-info">
+                <h2 class="project-title">Kappa Theta Pi Life App</h2>
+                <p class="project-description">Responsible for researching, designing, and deploying a mobile application for KTP Professional Fraternity at the University of Michigan.</p>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="project-image">
+                <img src="uwm-pic.png" alt="UWM Logo" class="image">
+            </div>
+            <div class="project-info">
+                <h2 class="project-title">IT Training Internship @ UWM</h2>
+                <p class="project-description">Trained specifically in HTML, CSS, JS, and React classes - worked on redesigning internal facing software that benefits all IT employees at the company.</p>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="project-image">
+                <img src="noaa-proj.png" alt="NOAA Redesign Photos" class="image">
+            </div>
+            <div class="project-info">
+                <h2 class="project-title">NOAA GLANSIS Web App Redesign</h2>
+                <p class="project-description">Worked directly with GLANSIS to evaluate research, wireframe and prototype black and white designs, and received feedback to improve further iterations.</p>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="project-image">
+                <img src="bad-website.png" alt="Project 4 Image" class="image">
+            </div>
+            <div class="project-info">
+                <h2 class="project-title">Fun, Anti-Design Website</h2>
+                <p class="project-description">Researched Javascript functions and CSS stylings to create random web interactions that go against design principles and create havoc in website form.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // JavaScript to handle smooth scrolling when loaded from another page
+        document.addEventListener('DOMContentLoaded', function () {
+            if (window.location.hash === '#target-section') {
+                document.querySelector(window.location.hash).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    </script>
+    <footer>
+        <div class="footer-container">
+            <h3>Tommy Joppich - 2023</h3>
+            <h5>Feel free to email me :) - tjoppich@umich.edu</h5>
+            <h5>LinkedIn: <a href="https://www.linkedin.com/in/thomasjoppich/">https://www.linkedin.com/in/thomasjoppich/</a></h5>
+            <h5>Github: <a href="https://github.com/tommyjoppich">https://github.com/tommyjoppich</a></h5>
+        </div>
+    </footer>
+</body>
+</html>
