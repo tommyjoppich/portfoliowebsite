@@ -93,11 +93,13 @@ li > a {
 
 .content-container {
     display: flex;
+    max-height: 32em;
 }
 
 .image-container {
     flex: 0.5;
-    margin-right: 2em; /* Optional margin between image and text */
+    margin-right: 2em;
+    max-height: 32em; /* Optional margin between image and text */
 }
 
 .image-container img {
