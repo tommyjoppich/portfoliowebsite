@@ -111,7 +111,7 @@ li > a {
 
 .text-container {
     flex: 1;
-
+    max-height: 32em;
 }
 
 .text-container > h2{
