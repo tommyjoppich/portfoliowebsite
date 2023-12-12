@@ -26,23 +26,23 @@ body {
 
 #name{
     padding: 10vw 0 0 20vw;
-    font-size: 56px;
+    font-size: 4em;
 }
 
 #slogan{
-    font-size: 32px;
+    font-size: 2em;
     font-weight: normal;
 }
 
 #description{
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
     padding: 0 10vw 10vw 20vw;
 }
 
 /*nav bar*/
 header {
-    padding: 30px 50px; /* Adjust padding as needed */
+    padding: 1.5em 2.5em; /* Adjust padding as needed */
     display: flex;
     justify-content: flex-end; /* Align items to the right */
 }
@@ -59,23 +59,23 @@ ul {
 
 li {
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 25px;
+    margin-left: 1.2em;
+    margin-top: 1.5em;
 }
 
 li > a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2em;
     display: flex;
     align-items: center; /* Align text and image vertically */
 }
 
 .nav-icon {
-    width: 30px; /* Adjust the width of the icon */
+    width: 1.8em; /* Adjust the width of the icon */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 10px;
+    margin-right: 0.8em;
 }
 
 /* Additional styling for the items in the .nav-bar class */
@@ -118,7 +118,7 @@ li > a {
     border-radius: 10px; /* Round the border edges */
     overflow: hidden; /* Ensure rounded corners are visible */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a drop shadow */
-    min-height: 250px;
+    min-height: 10vh;
 }
 
 .project-image {
@@ -133,24 +133,24 @@ li > a {
 
 .project-info {
     flex: 1; /* Take up half the box */
-    padding: 20px; /* Add padding to the project information */
+    padding: 1em; /* Add padding to the project information */
 }
 
 .project-title {
     font-size: 2rem; /* Set the font size of the project title */
-    margin-bottom: 10px; /* Add margin between title and description */
+    margin-bottom: 3vh; /* Add margin between title and description */
 }
 
 .project-description {
     font-size: 1.1rem;
-    margin-bottom: 5px; /* Set the font size of the project description */
+    margin-bottom: 2vh; /* Set the font size of the project description */
 }
 
 /*down arrow thing*/
 #down-arrow {
     display: block;
     margin: 0 auto; /* Center the image horizontally */
-    width: 50px; /* Adjust the width to your desired size */
+    width: 2.5em; /* Adjust the width to your desired size */
     height: auto; /* Maintain aspect ratio */
     padding: 0 0 0 0;
 }
