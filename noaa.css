@@ -175,6 +175,147 @@ h4 {
     max-height: 1000vh;
 }
 
+/*mobile design section*/
+#mobile-section {
+    background-color: white; /* Set the background color */
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row; /* Set flex direction to row */
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw;
+}
+
+.text-container {
+    flex: 2;
+    padding-right: 5vw;
+    background-color: white;
+}
+
+
+.image-container {
+    flex: 3; /* Give more space to the image container */
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.image-container img {
+    width: 20vh;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid black; /* Add black border */
+    margin-right: -10vw; /* Add some spacing between images */
+}
+
+/* Remove the margin-bottom from the last image */
+.image-container img:last-child {
+    margin-right: 0;
+}
+
+#first, #third{
+    margin-bottom: 10vh;
+}
+
+#second, #fourth{
+    margin-top: 10vh;
+}
+
+/*webapp design section*/
+
+.webapp-section-container {
+    display: flex;
+    flex-direction: row; /* Set flex direction to row */
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw;
+}
+
+.webapp-text-container {
+    flex: 2;
+    padding-right: 5vw;
+}
+
+.webapp-image-container {
+    flex: 3; /* Give more space to the image container */
+    display: flex;
+    justify-content: space-around;
+}
+
+.webapp-image-container img {
+    width: 30vh;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid black; /* Add black border */
+    margin-right: -15vw; /* Add some spacing between images */
+}
+
+#webapp-text{
+    background-color: #38B7E3;
+}
+
+/* Remove the margin-bottom from the last image */
+.webapp-image-container img:last-child {
+    margin-right: 0;
+}
+
+#webapp-first, #webapp-third{
+    margin-bottom: 15vh;
+}
+
+#webapp-second, #webapp-fourth{
+    margin-top: 15vh;
+}
+
+/*slide deck section*/
+#slide-deck-section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    background-color: white;
+}
+
+#slide-deck {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.slide-image-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.slide-image {
+    width: 25vw; /* Adjust the width as needed */
+    height: auto;
+    margin: 5px;
+}
+
+#overall {
+    background-color: white;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#overall, #overall-text{
+    background-color: white;
+    text-align: center;
+}
+
+#overall-text{
+    font-size: 1.5em;
+}
 
 /*footer*/
 footer{
